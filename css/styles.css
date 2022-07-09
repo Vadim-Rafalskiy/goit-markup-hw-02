@@ -1,6 +1,6 @@
 :root {
-  --primary-fonf: 'Roboto', sans-serif;
-  --secodary-font: 'Raleway', sans-serif;
+  --primary-fonf: 'Roboto', 'Open Sans', sans-serif;
+  --secodary-font: 'Raleway', 'Open Sans', sans-serif;
   --primary-background-color: #e5e5e5;
   --secondary-background-color: #f5f4fa;
   --fotter-background-color: #2f303a;
@@ -27,7 +27,6 @@ body {
 }
 .medium-tittle {
   font-family: var(--primary-fonf);
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.67;
   text-align: center;
@@ -37,7 +36,6 @@ body {
 .small-tittle {
   font-family: var(--primary-fonf);
   font-style: normal;
-  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -46,9 +44,8 @@ body {
 }
 
 .text {
-  font-weight: 400;
   font-size: 14px;
-  line-height: 1.71;
+  line-height: 1.72;
   letter-spacing: 0.03em;
 }
 
@@ -104,11 +101,15 @@ body {
 }
 
 .modal-btn {
+}
+.button {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
   color: var(--third-font-color);
+  background-color: var(--accent-color);
+  cursor: pointer;
 }
 
 /* --------- OUR BENEFITS --------- */
@@ -148,11 +149,15 @@ body {
 /* ------- FOTTER ------- */
 
 .address-map {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.72;
   letter-spacing: 0.03em;
   color: var(--third-font-color);
+}
+
+.address-map:hover,
+.address-map:focus {
+  color: var(--accent-color);
 }
 
 .address {
@@ -161,6 +166,11 @@ body {
   line-height: 1.72;
   letter-spacing: 0.03em;
   color: var(--fotter-font-color);
+}
+
+.address:hover,
+.address:focus {
+  color: var(--accent-color);
 }
 
 .address-list {
@@ -188,6 +198,7 @@ body {
   color: var(--secondary-font-color);
   background: var(--secondary-background-color);
   border-radius: 4px;
+  cursor: pointer;
 }
 
 .filter-btn:hover,

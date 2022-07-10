@@ -200,7 +200,7 @@ background-color: var(--third-font-color);
 
 .filter-item {
 }
-s
+
 .filter-btn {
   font-weight: 500;
   font-size: 16px;
@@ -208,10 +208,10 @@ s
   text-align: center;
   letter-spacing: var(--letter-spacing-priority);
   color: var(--secondary-font-color);
-  background: var(--secondary-background-color);
+  background-color: var(--background-filter-btn-color);
   border-radius: 4px;
   cursor: pointer;
-}
+ }
 
 .filter-btn:hover,
 .filter-btn:focus {
@@ -221,10 +221,15 @@ s
 
 /* -------------- PORTFOLIO ------------- */
 
+.portfolio{
+
+}
+
 .portfolio-list {
 }
 
 .portfolio-item {
+  background-color: var(--third-font-color);
 }
 
 .portfolio-img {

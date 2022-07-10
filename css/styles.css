@@ -12,6 +12,9 @@
   --logo-color: #000000;
   --background-filter-btn-color: #f5f4fa;
   --fotter-font-color: rgba(255, 255, 255, 0.6);
+  --font-size-priority: font-size: 14px;
+  --line-height-priority: line-height: 1.14;
+  --letter-spacing-priority: letter-spacing: 0.03em;
 }
 
 body {
@@ -30,23 +33,22 @@ body {
   font-size: 36px;
   line-height: 1.67;
   text-align: center;
-  letter-spacing: 0.03em;
+  letter-spacing: var(--letter-spacing-priority);
   color: var(--secondary-font-color);
 }
 .small-tittle {
   font-family: var(--primary-fonf);
-  font-style: normal;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
+  font-size: var(--font-size-priority);
+  line-height: var(--line-height-priority);
+  letter-spacing: var(--letter-spacing-priority);
   text-transform: uppercase;
   color: var(--secondary-font-color);
 }
 
 .text {
-  font-size: 14px;
+  font-size: var(--font-size-priority);
   line-height: 1.72;
-  letter-spacing: 0.03em;
+  letter-spacing: var(--letter-spacing-priority);
 }
 
 .logo {
@@ -54,19 +56,20 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
+  letter-spacing: var(--letter-spacing-priority);
   color: var(--logo-color);
 }
 
 .logo-accent-color {
   color: var(--accent-color);
 }
-
-.menu-link {
+.page-header{
   font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
+  font-size: var(--font-size-priority);
+  line-height: var(--line-height-priority);
   letter-spacing: 0.02em;
+}
+.menu-link {
   color: var(--secondary-font-color);
 }
 
@@ -76,11 +79,7 @@ body {
 }
 
 .contact {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: var(--primary-font-color);
+   color: var(--primary-font-color);
 }
 
 .contact:hover,
@@ -149,9 +148,6 @@ body {
 /* ------- FOTTER ------- */
 
 .address-map {
-  font-size: 14px;
-  line-height: 1.72;
-  letter-spacing: 0.03em;
   color: var(--third-font-color);
 }
 
@@ -161,10 +157,9 @@ body {
 }
 
 .address {
-  font-weight: 400;
-  font-size: 14px;
+  font-size: var(--font-size-priority);
   line-height: 1.72;
-  letter-spacing: 0.03em;
+  letter-spacing: var(--letter-spacing-priority);
   color: var(--fotter-font-color);
 }
 
@@ -188,13 +183,13 @@ body {
 
 .filter-item {
 }
-
+s
 .filter-btn {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
   text-align: center;
-  letter-spacing: 0.03em;
+  letter-spacing: var(--letter-spacing-priority);
   color: var(--secondary-font-color);
   background: var(--secondary-background-color);
   border-radius: 4px;

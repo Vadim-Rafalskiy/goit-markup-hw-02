@@ -19,17 +19,11 @@
     <header class="page-header">
         <!-- NAVIGATION -->
         <nav class="page-nav">
-            <a class="logo link" href="/"><span class="logo-accent-color">Web</span>Studio</a>
+            <a href="/" class="logo link"><span class="logo-accent-color">Web</span>Studio</a>
             <ul class="menu list">
-                <li class="menu-item">
-                    <a class="menu-link link" href="./index.html">Студия</a>
-                </li>
-                <li class="menu-item">
-                    <a class="menu-link link" href="./portfolio.html" target="_self">Портфолио</a>
-                </li>
-                <li class="menu-item">
-                    <a class="menu-link link" href="">Контакты</a>
-                </li>
+                <li><a class="menu-link link" href="./index.html">Студия</a></li>
+                <li><a class="menu-link current link" href="./portfolio.html" target="_self">Портфолио</a></li>
+                <li><a class="menu-link link" href="">Контакты</a></li>
             </ul>
         </nav>
         <ul class="menu list">
@@ -42,75 +36,62 @@
         </ul>
     </header>
     <main>
-        <h2 class="hiden-tittle">Портфолио</h2>
-        <!-- FILTER -->
-        <section class="filter">
-            <h2 class="hiden-tittle">Фильтр портфолио</h2>
-            <ul class="filter-list list">
-                <li class="filter-item"><button class="filter-btn" type="button">Все</button></li>
-                <li class="filter-item"><button class="filter-btn" type="button">Веб-сайты</button></li>
-                <li class="filter-item"><button class="filter-btn" type="button">Приложения</button></li>
-                <li class="filter-item"><button class="filter-btn" type="button">Дизайн</button></li>
-                <li class="filter-item"><button class="filter-btn" type="button">Маркетинг</button></li>
-            </ul>
-        </section>
         <!-- PORTFOLIO -->
-        <section class="portfolio">
-            <ul class="portfolio-list list">
+        <!-- FILTER -->
+        <section>
+            <h1 class="hiden-tittle">Портфолио</h1>
+            <ul class="list">
+                <li><button class="filter-btn" type="button">Все</button></li>
+                <li><button class="filter-btn" type="button">Веб-сайты</button></li>
+                <li><button class="filter-btn" type="button">Приложения</button></li>
+                <li><button class="filter-btn" type="button">Дизайн</button></li>
+                <li><button class="filter-btn" type="button">Маркетинг</button></li>
+            </ul>
+            <ul class="list">
                 <li class="portfolio-item">
-                    <img class="portfolio-img" src="./images/portfolio/portfolio-1.jpg" alt="Пример сайта" height="294"
-                        width="370">
-                    <h3 class="portfolio-tittle small-tittle">Технокряк</h3>
-                    <p class="portfolio-text text">Веб-сайт</p>
+                    <img src="./images/portfolio/portfolio-1.jpg" alt="Пример сайта" height="294" width="370">
+                    <h2 class="small-tittle">Технокряк</h2>
+                    <p class="text">Веб-сайт</p>
                 </li>
                 <li class="portfolio-item">
-                    <img class="portfolio-img" src="images/portfolio/portfolio-2.jpg" alt="Постер с баскетболистами"
-                        height="294" width="370">
-                    <h3 class="portfolio-tittle small-tittle">Постер <span lang="en">New Orlean vs Golden Star</span>
-                    </h3>
-                    <p class="portfolio-text text">Дизайн</p>
+                    <img src="images/portfolio/portfolio-2.jpg" alt="Постер с баскетболистами" height="294" width="370">
+                    <h2 class="small-tittle">Постер <span lang="en">New Orlean vs Golden Star</span></h2>
+                    <p class="text">Дизайн</p>
                 </li>
                 <li class="portfolio-item">
-                    <img class="portfolio-img" src="./images/portfolio/portfolio-3.jpg" alt="Вывеска ресторана"
-                        height="294" width="370">
-                    <h3 class="portfolio-tittle small-tittle">Ресторан<span lang="en">Seafood</span></h3>
-                    <p class="portfolio-text text">Приложение</p>
+                    <img src="./images/portfolio/portfolio-3.jpg" alt="Вывеска ресторана" height="294" width="370">
+                    <h2 class="small-tittle">Ресторан<span lang="en">Seafood</span></h2>
+                    <p class="text">Приложение</p>
                 </li>
                 <li class="portfolio-item">
-                    <img class="portfolio-img" src="./images/portfolio/portfolio-4.jpg" alt="Наушники" height="294"
-                        width="370">
-                    <h3 class="portfolio-tittle small-tittle">Проект <span lang="en">Prime</span></h3>
-                    <p class="portfolio-text text">Маркетинг</p>
+                    <img src="./images/portfolio/portfolio-4.jpg" alt="Наушники" height="294" width="370">
+                    <h2 class="small-tittle">Проект <span lang="en">Prime</span></h2>
+                    <p class="text">Маркетинг</p>
                 </li>
                 <li class="portfolio-item">
-                    <img class="portfolio-img" src="./images/portfolio/portfolio-5.jpg" alt="Две коробки" height="294"
-                        width="370">
-                    <h3 class="portfolio-tittle small-tittle">Проект <span lang="en">Boxes</span></h3>
-                    <p class="portfolio-text text">Приложение</p>
+                    <img src="./images/portfolio/portfolio-5.jpg" alt="Две коробки" height="294" width="370">
+                    <h2 class="small-tittle">Проект <span lang="en">Boxes</span></h2>
+                    <p class="text">Приложение</p>
                 </li>
                 <li class="portfolio-item">
-                    <img class="portfolio-img" src="./images/portfolio/portfolio-6.jpg" alt="Монитор" height="294"
-                        width="370">
-                    <h3 class="portfolio-tittle small-tittle" lang="en">Inspiration has no Borders</h3>
-                    <p class="portfolio-text text">Веб-сайт</p>
+                    <img src="./images/portfolio/portfolio-6.jpg" alt="Монитор" height="294" width="370">
+                    <h2 class="small-tittle" lang="en">Inspiration has no Borders</h2>
+                    <p class="text">Веб-сайт</p>
                 </li>
                 <li class="portfolio-item">
-                    <img class="portfolio-img" src="./images/portfolio/portfolio-7.jpg" alt="Журнал" height="294"
-                        width="370">
-                    <h3 class="portfolio-tittle small-tittle">Издание<span lang="en">Limited Edition</span></h3>
-                    <p class="portfolio-text text">Дизайн</p>
+                    <img src="./images/portfolio/portfolio-7.jpg" alt="Журнал" height="294" width="370">
+                    <h2 class="small-tittle">Издание<span lang="en">Limited Edition</span></h2>
+                    <p class="text">Дизайн</p>
                 </li>
                 <li class="portfolio-item">
-                    <img class="portfolio-img" src="./images/portfolio/portfolio-8.jpg" alt="Ярлык" height="294"
-                        width="370">
-                    <h3 class="portfolio-tittle small-tittle">Проект<span lang="en">LAB</span></h3>
-                    <p class="portfolio-text text">Маркетинг</p>
+                    <img src="./images/portfolio/portfolio-8.jpg" alt="Ярлык" height="294" width="370">
+                    <h2 class="small-tittle">Проект<span lang="en">LAB</span></h2>
+                    <p class="text">Маркетинг</p>
                 </li>
                 <li class="portfolio-item">
-                    <img class="portfolio-img" src="./images/portfolio/portfolio-9.jpg" alt="Ладони и ноутбук"
-                        height="294" width="370">
-                    <h3 class="portfolio-tittle small-tittle" lang="en">Growing Business</h3>
-                    <p class="portfolio-text text">Приложение</p>
+                    <img src="./images/portfolio/portfolio-9.jpg" alt="Ладони и ноутбук" height="294" width="370">
+                    <h2 class="small-tittle" lang="en">Growing Business</h2>
+                    <p class="text">Приложение</p>
                 </li>
             </ul>
         </section>

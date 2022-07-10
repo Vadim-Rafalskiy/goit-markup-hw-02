@@ -1,13 +1,12 @@
 :root {
-  --primary-fonf: 'Roboto', 'Open Sans', sans-serif;
-  --secodary-font: 'Raleway', 'Open Sans', sans-serif;
+  --primary-fonf: 'Roboto', 'Open Sans', '-apple-system', 'arial', 'noto', 'Ubuntu', 'Cantarell', 'helvetica', 'helvetica neue', 'segoe ui', 'BlinkMacSystemFont', 'avenir next', 'avenir', sans-serif;
+  --secodary-font: 'Raleway', 'Open Sans', '-apple-system', 'arial', 'noto', 'Ubuntu', 'Cantarell', 'helvetica', 'helvetica neue', 'segoe ui', 'BlinkMacSystemFont', 'avenir next', 'avenir', sans-serif;
   --primary-background-color: #e5e5e5;
   --secondary-background-color: #f5f4fa;
   --fotter-background-color: #2f303a;
   --primary-font-color: #757575;
   --secondary-font-color: #212121;
   --third-font-color: #ffffff;
-  --primary-filter-btn-color: ;
   --accent-color: #2196f3;
   --logo-color: #000000;
   --logo-color-second: #ffffff;
@@ -79,6 +78,9 @@ body {
   color: var(--accent-color);
 }
 
+.menu .menu-link.current{
+  color: var(--accent-color);
+}
 .contact {
    color: var(--primary-font-color);
 }
@@ -112,6 +114,8 @@ body {
 }
 
 .modal-btn {
+  font-family: inherit;
+  font-style: normal;
 }
 .button {
   font-weight: 700;
@@ -124,45 +128,15 @@ body {
 }
 
 /* --------- OUR BENEFITS --------- */
-.benefits{
 
-}
-
-.benefits-list{
-
-}
-
-.benefits-item {
-}
-
-.benefits-text {
-}
 
 /* --------- WHAT ARE WE DOING --------- */
 
-.doing {
-}
-
-.doing-list {
-}
-
-.doing-item-img {
-}
 /* --------- OUR_TEAM --------- */
 
-.team-tittle {
-}
-
-.team-list {
-}
-
 .team-item{
-background-color: var(--third-font-color);
+  background-color: var(--third-font-color);
 }
-
-.team-foto {
-}
-
 .team-text, .team-name{
   text-align: center;
 }
@@ -185,6 +159,7 @@ background-color: var(--third-font-color);
 }
 
 .address {
+  font-style:normal;
   font-size: var(--font-size-priority);
   line-height: 1.72;
   letter-spacing: var(--letter-spacing-priority);
@@ -196,23 +171,13 @@ background-color: var(--third-font-color);
   color: var(--accent-color);
 }
 
-.address-list {
-}
-
-.address-item {
-}
-
 /* ================== PORTFOLIO ================= */
 
 /* ------------ FILTER ------------ */
 
-.filter-list {
-}
-
-.filter-item {
-}
-
 .filter-btn {
+  font-family: inherit;
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
@@ -230,24 +195,9 @@ background-color: var(--third-font-color);
   color: var(--third-font-color);
 }
 
+
 /* -------------- PORTFOLIO ------------- */
-
-.portfolio{
-
-}
-
-.portfolio-list {
-}
 
 .portfolio-item {
   background-color: var(--third-font-color);
-}
-
-.portfolio-img {
-}
-
-.portfolio-tittle {
-}
-
-.portfolio-text {
 }

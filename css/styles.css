@@ -10,6 +10,7 @@
   --primary-filter-btn-color: ;
   --accent-color: #2196f3;
   --logo-color: #000000;
+  --logo-color-second: #ffffff;
   --background-filter-btn-color: #f5f4fa;
   --fotter-font-color: rgba(255, 255, 255, 0.6);
   --font-size-priority: font-size: 14px;
@@ -21,7 +22,7 @@ body {
   font-family: var(--primary-fonf);
   color: var(--primary-font-color);
   background-color: var(--primary-background-color);
-}
+  }
 .link {
   text-decoration: none;
 }
@@ -112,6 +113,13 @@ body {
 }
 
 /* --------- OUR BENEFITS --------- */
+.benefits{
+
+}
+
+.benefits-list{
+
+}
 
 .benefits-item {
 }
@@ -137,16 +145,25 @@ body {
 .team-list {
 }
 
+.team-item{
+background-color: var(--third-font-color);
+}
+
 .team-foto {
 }
 
-.team-name {
+.team-text, .team-name{
+  text-align: center;
+}
+/* ------- FOOTER ------- */
+
+.footer{
+  background-color: var(--fotter-background-color);
 }
 
-.team-text {
+.footer .logo{
+  color: var(--logo-color-second);
 }
-/* ------- FOTTER ------- */
-
 .address-map {
   color: var(--third-font-color);
 }

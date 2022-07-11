@@ -11,7 +11,8 @@
   --logo-color-second: #ffffff;
   --background-filter-btn-color: #f5f4fa;
   --fotter-font-color: rgba(255, 255, 255, 0.6);
-  --font-size-priority: 14px;
+  --font-size-priority-14: 14px;
+  --front-size-secondary-16: 16px;
   --line-height-priority: 1.14;
   --letter-spacing-priority: 0.03em;
 }
@@ -26,22 +27,22 @@ body {
 .list {
   list-style: none;
 }
-.medium-tittle {
+.medium-title {
   font-size: 36px;
   line-height: 1.67;
   text-align: center;
   letter-spacing: var(--letter-spacing-priority);
   color: var(--secondary-font-color);
 }
-.small-tittle {
-  font-size: var(--font-size-priority);
+.small-title {
+  font-size: var(--font-size-priority-14);
   line-height: var(--line-height-priority);
   letter-spacing: var(--letter-spacing-priority);
   color: var(--secondary-font-color);
 }
 
 .benefits-text {
-  font-size: var(--font-size-priority);
+  font-size: var(--font-size-priority-14);
   line-height: 1.71;
   letter-spacing: var(--letter-spacing-priority);
 }
@@ -60,7 +61,7 @@ body {
 }
 .page-header {
   font-weight: 500;
-  font-size: var(--font-size-priority);
+  font-size: var(font-size-priority-14);
   line-height: var(--line-height-priority);
   letter-spacing: 0.02em;
 }
@@ -85,7 +86,7 @@ body {
   color: var(--accent-color);
 }
 
-.hiden-tittle {
+.hiden-title {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -102,7 +103,7 @@ body {
   background-color: #2f303a;
 }
 
-.hero-tittle {
+.hero-title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -117,7 +118,7 @@ body {
 }
 .button {
   font-weight: 700;
-  font-size: 16px;
+  font-size: var(--front-size-secondary-16);
   line-height: 1.88;
   letter-spacing: 0.06em;
   color: var(--third-font-color);
@@ -137,7 +138,7 @@ body {
 
 .team-name {
   font-weight: 500;
-  font-size: 16px;
+  font-size: var(--front-size-secondary-16);
   line-height: 1.19px;
   letter-spacing: var(--letter-spacing-priority);
 
@@ -145,7 +146,7 @@ body {
 }
 
 .team-text {
-  font-size: 16px;
+  font-size: var(--front-size-secondary-16);
   line-height: 1.19px;
   letter-spacing: var(--letter-spacing-priority);
 }
@@ -174,7 +175,7 @@ body {
 
 .address {
   font-style: normal;
-  font-size: var(--font-size-priority);
+  font-size: var(font-size-priority-14);
   line-height: 1.72;
   letter-spacing: var(--letter-spacing-priority);
   color: var(--fotter-font-color);
@@ -193,7 +194,7 @@ body {
   font-family: inherit;
   /* font-style: normal; */
   font-weight: 500;
-  font-size: 16px;
+  font-size: var(--front-size-secondary-16);
   line-height: 1.63;
   text-align: center;
   letter-spacing: var(--letter-spacing-priority);
@@ -219,7 +220,7 @@ body {
 }
 
 .portfolio-text {
-  font-size: 16px;
+  font-size: var(--front-size-secondary-16);
   line-height: 1.88;
   letter-spacing: var(--letter-spacing-priority);
 }

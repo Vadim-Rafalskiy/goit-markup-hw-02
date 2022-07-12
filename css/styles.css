@@ -34,18 +34,6 @@ body {
   letter-spacing: var(--letter-spacing-priority);
   color: var(--secondary-font-color);
 }
-.small-title {
-  font-size: var(--font-size-priority-14);
-  line-height: var(--line-height-priority);
-  letter-spacing: var(--letter-spacing-priority);
-  color: var(--secondary-font-color);
-}
-
-.benefits-text {
-  font-size: var(--font-size-priority-14);
-  line-height: 1.71;
-  letter-spacing: var(--letter-spacing-priority);
-}
 
 .logo {
   font-family: var(--secodary-font);
@@ -127,7 +115,19 @@ body {
 }
 
 /* --------- OUR BENEFITS --------- */
+.benefits-title {
+  font-size: var(--font-size-priority-14);
+  line-height: var(--line-height-priority);
+  letter-spacing: var(--letter-spacing-priority);
+  color: var(--secondary-font-color);
+  text-transform: uppercase;
+}
 
+.benefits-text {
+  font-size: var(--font-size-priority-14);
+  line-height: 1.71;
+  letter-spacing: var(--letter-spacing-priority);
+}
 /* --------- WHAT ARE WE DOING --------- */
 
 /* --------- OUR_TEAM --------- */
